@@ -17,6 +17,6 @@
   ],
   "main": "./index.js",
   "dependencies": {
-    "contains-ads": "^0.2.5"
+    "contains-ads": "https://github.com/ErraticFox/contains-ads"
   }
 }

@@ -2,33 +2,37 @@
 # yarn lockfile v1
 
 
-ad-block@^2.0.1:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/ad-block/-/ad-block-2.1.0.tgz#f9d0f0c755f4ae710989cd0feaa084ba6db20cc7"
+ad-block@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/ad-block/-/ad-block-4.1.1.tgz#19be9250faa765dc40a7e17d33299b9634d33407"
+  integrity sha512-Oug/ildz3zUQhpuzQfBXme8KcFExP1YpAGvdqFaVg2ThKoT5DUJHb69cJpotmA3PGJYxMYDl0JeGqyx8IQiFnQ==
   dependencies:
-    bloom-filter-cpp "1.1.x"
+    bloom-filter-cpp "^1.2.0"
     cppunitlite "^1.0.0"
-    hashset-cpp "1.0.x"
-    nan "^2.2.1"
+    hashset-cpp "^2.1.0"
+    nan "^2.10.0"
 
-bloom-filter-cpp@1.1.x:
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/bloom-filter-cpp/-/bloom-filter-cpp-1.1.6.tgz#ddf0305923adf6edac1bf409e6735e196d2cacbf"
+bloom-filter-cpp@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/bloom-filter-cpp/-/bloom-filter-cpp-1.2.0.tgz#d3d5894b0fdeb541771d5fad96b7ba0969ecb5dc"
+  integrity sha512-R5axBRU0tvJK6tZmTFj8pMdjWtjh6eUWDUVj2I8nyeCYVOUKbW+uzM8VsWvMlAYs82fdUUZmA4/rNGkHW+dPNw==
 
-contains-ads@^0.2.5:
+"contains-ads@https://github.com/ErraticFox/contains-ads":
   version "0.2.5"
-  resolved "https://registry.yarnpkg.com/contains-ads/-/contains-ads-0.2.5.tgz#e624e5197cd7f286e736f1959d383ef7c156c578"
+  resolved "https://github.com/ErraticFox/contains-ads#ea43cd08ab5052e5a33189cec4e1b784305e8d2a"
   dependencies:
-    ad-block "^2.0.1"
+    ad-block "^4.1.1"
 
 cppunitlite@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/cppunitlite/-/cppunitlite-1.0.0.tgz#d9b33bd4dbde7de6b09e3534176e046653fabceb"
 
-hashset-cpp@1.0.x:
-  version "1.0.18"
-  resolved "https://registry.yarnpkg.com/hashset-cpp/-/hashset-cpp-1.0.18.tgz#68d4fbf035f04909f68061fc51546a025ab314f4"
+hashset-cpp@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/hashset-cpp/-/hashset-cpp-2.1.0.tgz#70f01b3786948c8d882e29286a52cce5e1697193"
+  integrity sha512-+HbrTNQH/qiWeObpS0ZFP0INA4yalHCm0j/lHW1V6h106DO+EOp26xQQqFsjGtrqy6vgB7hucTZarByazSd1Uw==
 
-nan@^2.2.1:
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.9.2.tgz#f564d75f5f8f36a6d9456cca7a6c4fe488ab7866"
+nan@^2.10.0:
+  version "2.11.1"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.11.1.tgz#90e22bccb8ca57ea4cd37cc83d3819b52eea6766"
+  integrity sha512-iji6k87OSXa0CcrLl9z+ZiYSuR2o+c0bGuNmXdrhTQTakxytAFsC56SArGYoiHlJlFoHSnvmhpceZJaXkVuOtA==
