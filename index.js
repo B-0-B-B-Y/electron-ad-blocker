@@ -2,8 +2,7 @@ const { initialize, containsAds, client } = require('contains-ads');
 
 initialize();
 
-module.exports.adBlocker = client;
-module.exports.blockWindowAds = (browserWindow, opts) => {
+function blockWindowAds (browserWindow, opts) {
 
   const options = Object.assign({}, {
     verbose: false,
@@ -26,3 +25,10 @@ module.exports.blockWindowAds = (browserWindow, opts) => {
     }
   });
 };
+
+module.exports = {
+  adBlocker: client,
+  blockWindowAds
+}
+
+
